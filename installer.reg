@@ -1,0 +1,67 @@
+Windows Registry Editor Version 5.00
+ 
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\GucMenu]
+"MUIVerb"="Güç Seçenekleri"
+"SubCommands"="GucKapat;|;GucUyku;|;GucYeniden;|;GucYenidenGelismis;|;GucOturumKapat;|;GucHazirdaBeklet"
+"Icon"="%SystemRoot%\\\\System32\\\\shell32.dll,277"
+"Position"="bottom"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\GucMenu]
+"MUIVerb"="Güç Seçenekleri"
+"SubCommands"="GucKapat;|;GucUyku;|;GucYeniden;|;GucYenidenGelismis;|;GucOturumKapat;|;GucHazirdaBeklet"
+"Icon"="%SystemRoot%\\\\System32\\\\shell32.dll,277"
+"Position"="bottom"
+
+[HKEY_CLASSES_ROOT\Drive\Shell\GucMenu]
+"MUIVerb"="Güç Seçenekleri"
+"SubCommands"="GucKapat;|;GucUyku;|;GucYeniden;|;GucYenidenGelismis;|;GucOturumKapat;|;GucHazirdaBeklet"
+"Icon"="%SystemRoot%\\\\System32\\\\shell32.dll,277"
+"Position"="bottom"
+
+[HKEY_CLASSES_ROOT\Folder\Shell\GucMenu]
+"MUIVerb"="Güç Seçenekleri"
+"SubCommands"="GucKapat;|;GucUyku;|;GucYeniden;|;GucYenidenGelismis;|;GucOturumKapat;|;GucHazirdaBeklet"
+"Icon"="%SystemRoot%\\\\System32\\\\shell32.dll,277"
+"Position"="bottom"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GucKapat]
+@="Kapat"
+"icon"="%SystemRoot%\\\\System32\\\\shell32.dll,215"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GucKapat\command]
+@="shutdown.exe /s /f /t 0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GucUyku]
+@="Uyku"
+"icon"="%SystemRoot%\\\\System32\\\\shell32.dll,211"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GucUyku\command]
+@="psshutdown.exe -d -t 0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GucYeniden]
+@="Yeniden Baþlat"
+"icon"="%SystemRoot%\\\\System32\\\\shell32.dll,238"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GucYeniden\command]
+@="shutdown.exe /r /f /t 0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GucYenidenGelismis]
+@="Yeniden Baþlat (Geliþmiþ Seçenekler)"
+"icon"="%SystemRoot%\\\\System32\\\\shell32.dll,238"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GucYenidenGelismis\command]
+@="shutdown.exe /r /o /f /t 0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GucOturumKapat]
+@="Oturumu Kapat"
+"icon"="%SystemRoot%\\\\System32\\\\shell32.dll,47"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GucOturumKapat\command]
+@="shutdown.exe /l /f"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GucHazirdaBeklet]
+@="Hazýrda Beklet"
+"icon"="%SystemRoot%\\\\System32\\\\shell32.dll,77"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GucHazirdaBeklet\command]
+@="psshutdown.exe -h -t 0"

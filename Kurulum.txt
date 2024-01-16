@@ -1,0 +1,45 @@
+   _____ _   _        __  __            _   _        __   ___  
+  / ____(_) (_)      |  \/  |          (_) (_)      /_ | / _ \ 
+ | |  __ _   _  ___  | \  / | ___ _ __  _   _  __   _| || | | |
+ | | |_ | | | |/ __| | |\/| |/ _ \ '_ \| | | | \ \ / / || | | |
+ | |__| | |_| | (__  | |  | |  __/ | | | |_| |  \ V /| || |_| |
+  \_____|\__,_|\___| |_|  |_|\___|_| |_|\__,_|   \_/ |_(_)___/ 
+                )_)                                            
+                                                               
+by Astropolia - (K)Oray Bey
+
+KURULUM:
+
+> Rar'ın içindeki "psshutdown.exe" dosyasını "C:\Windows\System32" içine at.
+
+> Windows Arama yerine gel.
+
+> "Sistem ortam değişkenlerini düzenleyin" bunu arat ve gir.
+
+> "Ortam Değişkenleri..." yazan butona tıkla.
+
+> "Sistem değişkenleri" altındaki "Path" ifadesine tıkla ve "Düzenle" butonuna bas.
+
+> "Yeni" butonuna bas "%SystemRoot%\System32\psshutdown.exe" ifadesini (Tırnaklar olmadan) ekle ve Tamam'lara basarak her şeyi kapat.
+
+> Özelliği eklemek için "installer.reg"e çift tıkla ve her şeye "Evet" de.
+
+> İşlem tamamlandı. Herhangi bir yerde fare ile sağ tıkladığında "Güç Seçenekleri" yazan kısma gelip istediğin seçeneği seçebilirsin.
+
+> "Kapat": Bilgisayarı kapatır.
+
+> "Uyku": Bilgisayarı UYKU moduna alır.
+
+> "Yeniden Başlat": Bilgisayarı yeniden başlatır.
+
+> "Yeniden Başlat (Gelişmiş Seçenekler)": Windows'un Gelişmiş Seçenekler kısmını açar.
+
+> "Oturumu Kapat": Mevcut kullanıcının oturumunu kapatır.
+
+> "Hazırda Beklet": Bilgisayarı HAZIRDA BEKLET moduna alır. Uykudan farkı daha az güç harcar ve bilgisayarı tamamen kapatır.
+Daha fazla bilgi için "Hazırda Beklet Nedir?"i Google'layın...
+
+> Güç Menü özelliğini kullanmak istemediğinizde "uninstaller.reg"e çift tıklayıp her şeye "Evet" de. Yeniden başlatmana gerek yok.
+
+
+NOT: Bunu anlamıyorsan https://telegra.ph/G%C3%BC%C3%A7-Men%C3%BC-v10-01-16 buraya gel belki bunu anlarsın....
