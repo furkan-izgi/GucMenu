@@ -1,16 +1,18 @@
-# Güç Seçenekleri Menüsü
+# Güç Menü
 
-![GucMenu](https://telegra.ph/file/1f89ce73f462ecc4e8548.png)
+<p align="center">
+  <img src="https://telegra.ph/file/1f89ce73f462ecc4e8548.png">
+</p>
 
 ## Kurulum
 
-> Görsellerle anlatım için [buraya](https://telegra.ph/G%C3%BC%C3%A7-Men%C3%BC-v10-01-16)
+> Görsel anlatım için [buraya](https://graph.org/G%C3%BC%C3%A7-Men%C3%BC-v10-01-16)
 
-1. Rar'ın içindeki **psshutdown.exe** dosyasını `C:\Windows\System32` içine at.
+1. Rar'ın içindeki **psshutdown.exe** dosyasını `C:\Windows\System32` içine at. --> [PsShutdown Nedir?](https://learn.microsoft.com/en-us/sysinternals/downloads/psshutdown)
 
 2. Windows Arama yerine gel.
 
-3. **Sistem ortam değişkenlerini düzenleyin** bunu arat ve gir.
+3. **Sistem ortam değişkenlerini düzenleyin** ifadesini Arama kısmında arat ve gir.
 
 4. **"Ortam Değişkenleri..."** yazan butona tıkla.
 
@@ -29,4 +31,4 @@
     - <ins>**Hazırda Beklet:**</ins> Bilgisayarı HAZIRDA BEKLET moduna alır. Uykudan farkı daha az güç harcar ve bilgisayarı tamamen kapatır.
 > Daha fazla bilgi için **Hazırda Beklet Nedir?** ifadesini Google'layın.
 
-9. Güç Menü özelliğini kullanmak istemediğinizde **uninstaller.reg** dosyasına çift tıklayıp her şeye **Evet** de. Yeniden başlatmana gerek yok.
+9. Güç Menü özelliğini kullanmak istemediğinizde **uninstaller.reg** dosyasına çift tıklayıp her şeye **Evet** de ve `C:\Windows\System32` içinden **psshutdown.exe** dosyasını sil. Yeniden başlatmana gerek yok.
